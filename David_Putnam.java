@@ -1,7 +1,7 @@
 /*
     This implements Davis-Putnam
  */
-package assignment2;
+
 import java.io.*;// for input from a file
 import java.util.Collection;
 import java.util.HashMap; //used for the two sets
@@ -17,13 +17,13 @@ import java.util.Set;//for sets (not maps)
  * @date-end: 10/31/2020
  */
 
-public class Assignment2 {
+public class David_Putnam {
 
     public static void main(String[] args) throws Exception{
-        Assignment2 start = new Assignment2(args);
+        David_Putnam start = new David_Putnam(args);
     }
     
-    public Assignment2(String[] args) throws Exception{
+    public David_Putnam(String[] args) throws Exception{
         // PARSE the args
         String filename = args[0];
         File file = new File(filename);
